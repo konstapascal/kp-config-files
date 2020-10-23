@@ -1,0 +1,11 @@
+# Nicely formatted PATH
+alias path='tr ":" "\n" <<< "$PATH"'
+
+# Reload config file for shell without exiting terminal
+alias reload='source ~/.zshrc'
+
+# Weather in Oslo
+alias weather='curl "wttr.in/Oslo?0F"'
+alias weatherLong='curl "wttr.in/Oslo?F"'
+
+alias sf='screenfetch'
