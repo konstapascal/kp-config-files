@@ -80,7 +80,6 @@ plugins=(
 	sudo
 	zsh-autosuggestions
 	autojump
-	enhancd
 	git
 	npm
 	)
@@ -118,6 +117,7 @@ source $ZSH/oh-my-zsh.sh
 
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 
+# Default directory
 cd /home/konsta
 
 # Custom file for aliases

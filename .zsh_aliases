@@ -1,3 +1,6 @@
+# bat is cat but prettier
+alias bat='batcat'
+
 # Nicely formatted PATH
 alias path='tr ":" "\n" <<< "$PATH"'
 
@@ -9,3 +12,6 @@ alias weather='curl "wttr.in/Oslo?0F"'
 alias weatherLong='curl "wttr.in/Oslo?F"'
 
 alias sf='screenfetch'
+
+alias subl='"/mnt/c/Program Files/Sublime Text 3/subl.exe"'
+
