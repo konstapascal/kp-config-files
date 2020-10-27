@@ -15,3 +15,5 @@ alias sf='screenfetch'
 
 alias subl='"/mnt/c/Program Files/Sublime Text 3/subl.exe"'
 
+# Update config files in git repo
+alias cpConfigs='cp ~/.gitconfig ~/.p10k.zsh ~/.zsh_aliases ~/.zshrc ~/vsc_repos/zsh-config-files'
