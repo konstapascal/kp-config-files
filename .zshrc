@@ -126,3 +126,5 @@ cd /home/konsta
 ZSH_AUTOSUGGEST_MANUAL_REBIND=1
 
 zle_highlight=('paste:none')
+
+cp ~/.gitconfig ~/.p10k.zsh ~/.zsh_aliases ~/.zshrc ~/vsc_repos/zsh-config-files
