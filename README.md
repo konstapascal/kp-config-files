@@ -1,3 +1,3 @@
 ## zsh-config-files
 
-These are the config files for my shell.
+These are the configs for my linux shell, themes, windows terminal, and other config files.
