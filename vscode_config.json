@@ -1,0 +1,73 @@
+{
+	"breadcrumbs.enabled": true,
+	"editor.wordWrap": "on",
+	"liveServer.settings.donotVerifyTags": true,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"window.zoomLevel": 0,
+	"workbench.startupEditor": "newUntitledFile",
+	"vsicons.dontShowNewVersionMessage": true,
+	"extensions.ignoreRecommendations": false,
+	"explorer.confirmDelete": false,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"explorer.confirmDragAndDrop": false,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"gitlens.views.repositories.files.layout": "list",
+	"git.autofetch": true,
+	"workbench.tree.renderIndentGuides": "always",
+	"workbench.tree.indent": 10,
+	"prettier.jsxSingleQuote": true,
+	"prettier.singleQuote": true,
+	"prettier.useTabs": true,
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.formatOnSave": true,
+	"editor.fontFamily": "Consolas, 'Courier New', monospace",
+	"editor.fontLigatures": true,
+	"workbench.colorTheme": "Monokai",
+	"timeline.excludeSources": [],
+	"git.enableSmartCommit": true,
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"workbench.iconTheme": "vscode-icons",
+	"prettier.arrowParens": "avoid",
+	"[json]": {
+		"editor.quickSuggestions": {
+			"strings": true
+		},
+		"editor.suggest.insertMode": "replace",
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"terminal.integrated.fontFamily": "MesloLGS NF",
+	"terminal.integrated.fontSize": 12,
+	"terminal.integrated.rightClickBehavior": "default",
+	"terminal.integrated.drawBoldTextInBrightColors": false,
+	"gitlens.gitCommands.skipConfirmations": [
+		"fetch:command",
+		"stash-push:command",
+		"switch:command",
+		"push:command"
+	],
+	"bracket-pair-colorizer-2.showHorizontalScopeLine": false,
+	"prettier.trailingComma": "none",
+	"indentRainbow.ignoreErrorLanguages": ["*"],
+	"prettier.jsxBracketSameLine": true,
+	"eslint.alwaysShowStatus": true,
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"prettier.tabWidth": 3,
+	"editor.tabSize": 3,
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	},
+	"window.title": "${dirty}${activeEditorLong}${separator}${rootName}${separator}${appName}",
+	"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+	"terminal.integrated.shellArgs.windows": [
+		"cmd.exe /k D:\\cmder\\vendor\\init.bat"
+	],
+	"editor.linkedEditing": true
+}
