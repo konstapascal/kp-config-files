@@ -76,9 +76,13 @@ DISABLE_MAGIC_FUNCTIONS="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+	git
+	npm
+	npx
+	node
 	sudo
 	zsh-autosuggestions
-	autojump
+	z
 	)
 
 source $ZSH/oh-my-zsh.sh
@@ -124,4 +128,4 @@ ZSH_AUTOSUGGEST_MANUAL_REBIND=1
 
 zle_highlight=('paste:none')
 
-cp ~/.gitconfig ~/.p10k.zsh ~/.zsh_aliases ~/.zshrc /home/konsta/vsc_repos/personal/zsh-config-files
+cpConfigs
