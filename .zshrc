@@ -82,7 +82,7 @@ plugins=(
 	node
 	sudo
 	zsh-autosuggestions
-	z
+	autojump
 	)
 
 source $ZSH/oh-my-zsh.sh
