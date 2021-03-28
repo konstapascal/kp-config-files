@@ -1,19 +1,16 @@
-# bat is cat but prettier
 alias bat='batcat'
-
-# Nicely formatted PATH
 alias path='tr ":" "\n" <<< "$PATH"'
 
-# Reload config file for shell without exiting terminal
 alias reload='source ~/.zshrc'
 
-# Weather in Oslo
 alias weather='curl "wttr.in/Oslo?0F"'
+
 alias weatherLong='curl "wttr.in/Oslo?F"'
 
 alias sf='screenfetch'
 
 alias subl='"/mnt/c/Program Files/Sublime Text 3/subl.exe"'
 
-# Update config files in git repo
 alias cpConfigs='cp ~/.gitconfig ~/.p10k.zsh ~/.zsh_aliases ~/.zshrc ~/vsc_repos/personal/zsh-config-files'
+
+alias cls='clear'
