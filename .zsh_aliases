@@ -5,7 +5,7 @@ alias path='tr ":" "\n" <<< "$PATH"'
 alias reload='source ~/.zshrc'
 
 alias weather='curl "wttr.in/Oslo?0F"'
-alias weatherLong='curl "wttr.in/Oslo?F"'
+alias weatherl='curl "wttr.in/Oslo?F"'
 
 alias sf='screenfetch'
 
@@ -20,3 +20,5 @@ alias gaa="git add -A"
 alias gcm="git commit -m $*"
 alias gp="git push"
 alias gst="git status"
+
+alias cdp="cd /home/konsta/vsc_repos/personal"
