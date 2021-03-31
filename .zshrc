@@ -124,4 +124,7 @@ ZSH_AUTOSUGGEST_MANUAL_REBIND=1
 
 zle_highlight=('paste:none')
 
+if [ -f /usr/bin/screenfetch ]; then screenfetch -n; fi
+echo ""
+
 cpConfigs

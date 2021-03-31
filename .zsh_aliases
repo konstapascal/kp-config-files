@@ -1,10 +1,10 @@
 alias bat='batcat'
+
 alias path='tr ":" "\n" <<< "$PATH"'
 
 alias reload='source ~/.zshrc'
 
 alias weather='curl "wttr.in/Oslo?0F"'
-
 alias weatherLong='curl "wttr.in/Oslo?F"'
 
 alias sf='screenfetch'
@@ -14,3 +14,9 @@ alias subl='"/mnt/c/Program Files/Sublime Text 3/subl.exe"'
 alias cpConfigs='cp ~/.gitconfig ~/.p10k.zsh ~/.zsh_aliases ~/.zshrc ~/vsc_repos/personal/zsh-config-files'
 
 alias cls='clear'
+
+alias gl="git log --oneline --all --graph --decorate  $*"
+alias gaa="git add -A"
+alias gcm="git commit -m $*"
+alias gp="git push"
+alias gst="git status"
