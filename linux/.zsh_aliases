@@ -11,7 +11,7 @@ alias sf='screenfetch'
 
 alias subl='"/mnt/c/Program Files/Sublime Text 3/subl.exe"'
 
-alias cpConfigs='cp ~/.gitconfig ~/.p10k.zsh ~/.zsh_aliases ~/.zshrc ~/vsc_repos/personal/zsh-config-files'
+alias cpConfigs='cp ~/.gitconfig ~/.p10k.zsh ~/.zsh_aliases ~/.zshrc ~/vsc_repos/personal/zsh-config-files/linux'
 
 alias cls='clear'
 
